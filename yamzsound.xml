@@ -1,0 +1,53 @@
+<sounds>
+   <file id="main" hifi="soundmain.swf" lofi="">
+      <musics>
+         <_theme_bass/>
+         <_theme/>
+      </musics>
+      <fx>
+         <_void/>
+      </fx>
+   </file>
+   <file id="game" hifi="soundgame.swf" lofi="">
+      <musics>
+         <_void/>
+         <!--son de tintement pour le défilement du score ; dans musics pour ne pas être coupé pendant l'écran de score-->
+         <_ding/>
+      </musics>
+      <fx>
+         <_motor/>
+         <_accel/>
+         <_accel_tank/>
+         <_explo/>
+         <_charge/>
+         <_caisse/>
+         <_lezardattack/>
+         <_bonus/>
+         <_bonus_egg/>
+         <_bonus_egg_all/>
+         <_lezardjaune/>
+         <_impact/>
+         <_spirale/>
+         <_lazer/>
+         <_dinolazer/>
+         <_skid/>
+         <_plasma/>
+         <_helico/>
+         <_tankshoot/>
+         <_tankmotor/>
+         <_tankderap/>
+         <_trexcri/>
+         <_trexwalk/>
+         <_trexdie/>
+         <_boom/>
+         <_raptorattack/>
+         <_trexattack/>
+         <_pterocri/>
+         <_tirrafale/>
+         <_flame/>
+         <_tirspecial/>
+         <_borne/>
+         <_mitraille/>
+      </fx>
+   </file>
+</sounds>
