@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dino Attack</title>
+  <style>
+    body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  </style>
+</head>
+<body>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <div id="container"></div>
+  <script>
+    window.addEventListener("load", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      player.style.width = "800px";
+      player.style.height = "600px";
+      document.getElementById("container").appendChild(player);
+      player.load("DinoAttackGame.swf"); // adjust to match actual filename
+    });
+  </script>
+</body>
+</html>
